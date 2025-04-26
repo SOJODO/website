@@ -4,40 +4,80 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sojodo - The Way Beyond Forms</title>
+
+  <!-- Montserrat Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #fff8f0;
-      color: #333;
       margin: 0;
-      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+      background-color: #fff8f0;
       line-height: 1.6;
     }
-    header, footer {
-      background: darkorange;
-      color: white;
-      padding: 1em;
+    header {
+      background: url('https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
-    }
-    .container {
-      padding: 2em;
-    }
-    h1, h2 {
-      color: darkorange;
-    }
-    .section {
-      margin-bottom: 3em;
-    }
-    nav a {
-      margin: 0 10px;
       color: white;
-      text-decoration: none;
+      padding: 0 1em;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5em;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 0.3em 1em;
+      border-radius: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 0.2em 0.8em;
+      border-radius: 8px;
     }
     nav {
       margin-top: 10px;
     }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .container {
+      padding: 2em 1em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 3em;
+      padding: 2em;
+      border-radius: 8px;
+    }
+    .section:nth-child(odd) {
+      background-color: #fbe5d6;
+    }
+    .section:nth-child(even) {
+      background-color: #fff1e0;
+    }
+    h2 {
+      color: darkorange;
+    }
+    footer {
+      background: darkorange;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+      font-size: 0.9rem;
+    }
   </style>
 </head>
+
 <body>
 
 <header>
@@ -54,24 +94,27 @@
 
   <section class="section">
     <h2>Welcome to Sojodo</h2>
-    <p>Sojodo is a living inquiry — a path forged through motion, reflection, and inner truth.</p>
-    <p>It is the way of harmonized action. The path beyond form.</p>
+    <p>Sojodo is a living inquiry — a path forged through motion, reflection, and inner truth.  
+    It is the way of harmonized action — the path beyond form.</p>
   </section>
 
   <section class="section">
     <h2>Training Focus</h2>
-    <p><strong>Group Instruction:</strong> Mondays & Thursdays (1 hr): Focus on 'Combat Skills'.</p>
-    <p><strong>Core Training:</strong> Tuesdays (2 hrs): Deep exploration of body structure, timing, and balance.</p>
+    <p><strong>Group Instruction:</strong> Mondays & Thursdays (1 hour each) — Focused on Combat Skills development.</p>
+    <p><strong>Core Training:</strong> Tuesdays (2 hours) — Deep exploration of structure, timing, and balance through extensive practice and reflection.</p>
   </section>
 
   <section class="section">
     <h2>The Sojodo Manifesto</h2>
     <p>We are not here to perfect technique. We are here to transcend it.</p>
-    <p>Sojodo is not a style. It is not a system of rigid forms, nor a lineage bound by tradition.</p>
-    <p>It is a living inquiry — a path forged through motion, reflection, and inner truth.</p>
-    <p>Structure. Timing. Balance. These are the threads woven through all disciplines — martial arts, architecture, music, dance, and human connection.</p>
-    <p>Technique is a tool. But soul is the architect.</p>
-    <p>We guide people to remember what they already know.</p>
+    <p>Sojodo is not a style. It is not a rigid system or a lineage bound by tradition. It is a living inquiry — a movement forged through reflection and truth.</p>
+    <p>We break boundaries — physical, mental, emotional, cultural. Growth is born from understanding, not imitation.</p>
+    <p>We study the universal principles: Structure, Timing, Balance — the silent threads behind all disciplines, from martial arts to architecture, music, dance, and human connection.</p>
+    <p>Technique is a tool. Soul is the architect.</p>
+    <p>Only when we move from presence — beyond obedience — do we create something truly alive.</p>
+    <p>Sojodo is a way of returning to the core — a remembrance of natural movement, awakening others to their own truth.</p>
+    <p>We do not teach people what to do.  
+    We guide them to remember what they already know.</p>
   </section>
 
   <section class="section" id="contact">
